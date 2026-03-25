@@ -1888,6 +1888,12 @@ const TABS = [
 ];
 
 export default function RideConvert() {
+  if (typeof document !== "undefined") {
+    document.body.style.margin = "0";
+    document.body.style.padding = "0";
+    document.body.style.background = D.bg;
+    document.body.style.minHeight = "100vh";
+  }
   const [tab, setTab] = useState("overview");
   const [opId, setOpId] = useState("toronto");
   const op = OPERATORS[opId];
@@ -1904,12 +1910,8 @@ export default function RideConvert() {
     <div
       style={{
         fontFamily: "'DM Sans','Inter',system-ui,sans-serif",
-        maxWidth: 980,
-        margin: "0 auto",
-        padding: "20px 16px",
-        background: D.bg,
-        minHeight: "100vh",
-        WebkitFontSmoothing: "antialiased",
+        width: "100%",
+        padding: "20px 28px",
       }}
     >
       {/* Header */}
