@@ -1,0 +1,10 @@
+cat > .gitignore << 'EOF'
+node_modules/
+dist/
+.env
+.DS_Store
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.vercel/
+EOF
