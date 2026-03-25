@@ -738,10 +738,12 @@ export default function RideConvert() {
           Operator-agnostic · Benchmarks from Divvy, Citi Bike, Santander Cycles & Bike Share Toronto · Simulated data preserving real distributions
         </span>
         <div style={{display:"flex",gap:8}}>
-          <button onClick={()=>sendPrompt("Give me Phase 3 — the Python Jupyter analysis notebook")}
-            style={{fontSize:10,padding:"4px 10px",borderRadius:6,background:D.s2,border:`1px solid ${D.b2}`,color:D.t2,cursor:"pointer"}}>Phase 3 — Python notebook ↗</button>
-          <button onClick={()=>sendPrompt("Show me the updated PRD with Toronto-specific pricing")}
-            style={{fontSize:10,padding:"4px 10px",borderRadius:6,background:D.s2,border:`1px solid ${D.b2}`,color:D.t2,cursor:"pointer"}}>PRD updates ↗</button>
+          <a href="https://github.com/aashi2912/rideconvert/blob/main/01_eda.ipynb" target="_blank" rel="noopener noreferrer"
+            style={{fontSize:10,padding:"4px 10px",borderRadius:6,background:D.s2,border:`1px solid ${D.b2}`,color:D.t2,cursor:"pointer",textDecoration:"none"}}>Python notebook ↗</a>
+          <a href="https://github.com/aashi2912/rideconvert/blob/main/PRD.md" target="_blank" rel="noopener noreferrer"
+            style={{fontSize:10,padding:"4px 10px",borderRadius:6,background:D.s2,border:`1px solid ${D.b2}`,color:D.t2,cursor:"pointer",textDecoration:"none"}}>PRD ↗</a>
+          <a href="https://github.com/aashi2912/rideconvert" target="_blank" rel="noopener noreferrer"
+            style={{fontSize:10,padding:"4px 10px",borderRadius:6,background:D.s2,border:`1px solid ${D.b2}`,color:D.t2,cursor:"pointer",textDecoration:"none"}}>GitHub ↗</a>
         </div>
       </div>
     </div>
