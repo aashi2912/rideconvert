@@ -2,7 +2,7 @@
 
 **An end-to-end product strategy for converting casual bike-share riders into annual members.**
 
-[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-rideconvert.vercel.app-00C9B1?style=flat-square)](https://rideconvert.vercel.app)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-rideconvert.vercel.app-00C9B1?style=flat-square)](https://rideconvert.vercel.app/)
 [![PRD](https://img.shields.io/badge/PRD-Read_the_doc-A78BFA?style=flat-square)](./docs/PRD.md)
 [![Strategy](https://img.shields.io/badge/Strategy_Brief-6--pager-60A5FA?style=flat-square)](./docs/STRATEGY.md)
 [![Decisions](https://img.shields.io/badge/Decision_Log-7_decisions-F59E0B?style=flat-square)](./docs/DECISIONS.md)
