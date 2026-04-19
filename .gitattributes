@@ -1,0 +1,5 @@
+# Demote dashboard JS so Jupyter Notebooks show as primary language
+dashboard/**          linguist-vendored
+package-lock.json     linguist-vendored
+notebooks/**          linguist-detectable=true
+sql/**                linguist-detectable=true
